@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mara Ellis | Editorial Designer and Writer</title>
+<meta name="description" content="Portfolio of Mara Ellis, editorial designer and writer crafting print inspired digital experiences.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="navInner">
+    <a class="brand" href="#top" aria-label="Back to top">
+      <span class="brandMark">M</span>
+      <span class="brandText">Mara Ellis</span>
+    </a>
+    <nav class="navLinks" id="navLinks" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#voices">Voices</a>
+      <a href="#contact" class="navCta">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap heroGrid">
+      <div class="heroCopy reveal">
+        <p class="badge"><span class="dot"></span> Available for new projects</p>
+        <h1>Stories told<br>in <em>print calm</em><br>for the screen age.</h1>
+        <p class="lede">I am Mara Ellis, an editorial designer and writer. I shape brand narratives, layouts and longform pieces with room to breathe.</p>
+        <div class="heroActions">
+          <a href="#work" class="btn btnSolid">View selected work</a>
+          <a href="#contact" class="btn btnGhost">Start a project</a>
+        </div>
+        <dl class="heroStats">
+          <div><dt>9</dt><dd>Years in editorial</dd></div>
+          <div><dt>48</dt><dd>Projects published</dd></div>
+          <div><dt>12</dt><dd>Design awards</dd></div>
+        </dl>
+      </div>
+      <div class="heroVisual reveal">
+        <div class="portraitCard">
+          <div class="portraitArt" role="img" aria-label="Abstract portrait placeholder in warm tones">
+            <span class="paCircle"></span>
+            <span class="paArch"></span>
+            <span class="paLine"></span>
+            <span class="paInitial">M</span>
+          </div>
+          <div class="portraitMeta">
+            <p class="pmName">Mara Ellis</p>
+            <p class="pmRole">Editorial Designer · Writer · Portland</p>
+          </div>
+        </div>
+        <div class="floatCard fc1">
+          <p class="fcNum">No. 24</p>
+          <p class="fcLabel">Field Notes issue, art directed</p>
+        </div>
+        <div class="floatCard fc2">
+          <p class="fcNum">Aa</p>
+          <p class="fcLabel">Fraunces serif, text pairing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE STRIP -->
+  <div class="strip" aria-hidden="true">
+    <div class="wrap stripRow">
+      <span>Editorial Design</span><i></i>
+      <span>Art Direction</span><i></i>
+      <span>Longform Writing</span><i></i>
+      <span>Brand Voice</span><i></i>
+      <span>Print to Digital</span><i></i>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="secHead reveal">
+        <p class="kicker">Selected Work</p>
+        <h2>A quiet shelf of recent favorites.</h2>
+        <p class="secSub">Six pieces chosen for craft and clarity. Filter by discipline to browse.</p>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Filter projects">
+        <button class="filterBtn isActive" data-filter="all">All</button>
+        <button class="filterBtn" data-filter="editorial">Editorial</button>
+        <button class="filterBtn" data-filter="brand">Brand</button>
+        <button class="filterBtn" data-filter="writing">Writing</button>
+      </div>
+      <div class="workGrid" id="workGrid">
+        <article class="card reveal" data-cat="editorial">
+          <div class="cardArt art1"><span class="artNum">01</span><span class="artShape s1"></span><span class="artShape s2"></span></div>
+          <div class="cardBody">
+            <p class="cardCat">Editorial</p>
+            <h3>Field Notes Quarterly</h3>
+            <p>Art direction and layout for a 96 page print quarterly on slow travel.</p>
+            <p class="cardMeta">Print · 2025</p>
+          </div>
+        </article>
+        <article class="card reveal" data-cat="brand">
+          <div class="cardArt art2"><span class="artNum">02</span><span class="artShape s3"></span><span class="artShape s4"></span></div>
+          <div class="cardBody">
+            <p class="cardCat">Brand</p>
+            <h3>Juniper and Co Identity</h3>
+            <p>Full identity and voice for a small batch ceramics studio.</p>
+            <p class="cardMeta">Identity · 2025</p>
+          </div>
+        </article>
+        <article class="card reveal" data-cat="writing">
+          <div class="cardArt art3"><span class="artNum">03</span><span class="artShape s5"></span></div>
+          <div class="cardBody">
+            <p class="cardCat">Writing</p>
+            <h3>The Paper House Essays</h3>
+            <p>A twelve part essay series on home, paper and memory.</p>
+            <p class="cardMeta">Longform · 2024</p>
+          </div>
+        </article>
+        <article class="card reveal" data-cat="editorial">
+          <div class="cardArt art4"><span class="artNum">04</span><span class="artShape s6"></span><span class="artShape s7"></span></div>
+          <div class="cardBody">
+            <p class="cardCat">Editorial</p>
+            <h3>Monograph: Light Studies</h3>
+            <p>Exhibition catalog with generous margins and calm pacing.</p>
+            <p class="cardMeta">Catalog · 2024</p>
+          </div>
+        </article>
+        <article class="card reveal" data-cat="brand">
+          <div class="cardArt art5"><span class="artNum">05</span><span class="artShape s8"></span></div>
+          <div class="cardBody">
+            <p class="cardCat">Brand</p>
+            <h3>Oatline Packaging</h3>
+            <p>Package system and shelf voice for an oat milk label.</p>
+            <p class="cardMeta">Packaging · 2023</p>
+          </div>
+        </article>
+        <article class="card reveal" data-cat="writing">
+          <div class="cardArt art6"><span class="artNum">06</span><span class="artShape s9"></span><span class="artShape s10"></span></div>
+          <div class="cardBody">
+            <p class="cardCat">Writing</p>
+            <h3>Letters from the Margin</h3>
+            <p>Monthly newsletter on editing, read by 8,000 makers.</p>
+            <p class="cardMeta">Newsletter · 2023</p>
+          </div>
+        </article>
+      </div>
+      <p class="emptyMsg" id="emptyMsg" hidden>No pieces in this shelf yet. Try another filter.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT + SERVICES -->
+  <section class="section tint" id="about">
+    <div class="wrap aboutGrid">
+      <div class="reveal">
+        <p class="kicker">About</p>
+        <h2>Calm pages, clear ideas.</h2>
+        <p class="body">I began in magazine design and stayed for the discipline it teaches: hierarchy, rhythm and respect for the reader. Today I help studios and founders turn dense material into pieces people finish.</p>
+        <p class="body">My process is simple. Read everything, sketch loosely, set type early, then edit until only the essential remains.</p>
+        <ul class="checkList">
+          <li>Print trained, digital fluent</li>
+          <li>Writer first, decorator never</li>
+          <li>Accessible type as standard</li>
+        </ul>
+      </div>
+      <div class="services reveal" id="services">
+        <h3 class="miniTitle">Services</h3>
+        <div class="service">
+          <span class="serviceNum">A</span>
+          <div><h4>Editorial Design</h4><p>Magazines, catalogs, reports and books with systems that scale.</p></div>
+          <p class="price">from $2,400</p>
+        </div>
+        <div class="service">
+          <span class="serviceNum">B</span>
+          <div><h4>Brand Voice and Identity</h4><p>Naming, tone and visual identity for thoughtful small brands.</p></div>
+          <p class="price">from $3,800</p>
+        </div>
+        <div class="service">
+          <span class="serviceNum">C</span>
+          <div><h4>Writing and Editing</h4><p>Essays, interviews and longform pieces, plus sharp structural edits.</p></div>
+          <p class="price">from $900</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="section" id="voices">
+    <div class="wrap narrow reveal">
+      <p class="kicker center">Kind Words</p>
+      <blockquote class="quote">
+        <p>“Mara gave our catalog the pace of a good novel. Readers linger. Retailers noticed. It is the best money we spent all year.”</p>
+        <footer>
+          <span class="quoteAvatar">JK</span>
+          <span><strong>June Keller</strong><br>Director, Light Studies Gallery</span>
+        </footer>
+      </blockquote>
+      <div class="quoteNav">
+        <button id="prevQuote" aria-label="Previous testimonial">←</button>
+        <p id="quoteCount">1 of 3</p>
+        <button id="nextQuote" aria-label="Next testimonial">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section tint" id="contact">
+    <div class="wrap contactGrid">
+      <div class="reveal">
+        <p class="kicker">Contact</p>
+        <h2>Let us make something worth keeping.</h2>
+        <p class="secSub">Tell me about your timeline and goals. I reply within two working days.</p>
+        <ul class="contactList">
+          <li><strong>Email</strong><span>hello@maraellis.studio</span></li>
+          <li><strong>Studio</strong><span>Portland, working worldwide</span></li>
+          <li><strong>Social</strong><span>Are.na · Instagram · LinkedIn</span></li>
+        </ul>
+      </div>
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="fName">Your name</label>
+          <input id="fName" name="name" type="text" placeholder="Jordan Lee" autocomplete="name">
+          <small class="err" id="eName"></small>
+        </div>
+        <div class="field">
+          <label for="fEmail">Email address</label>
+          <input id="fEmail" name="email" type="email" placeholder="you@studio.com" autocomplete="email">
+          <small class="err" id="eEmail"></small>
+        </div>
+        <div class="field">
+          <label for="fType">Project type</label>
+          <select id="fType" name="type">
+            <option value="editorial">Editorial design</option>
+            <option value="brand">Brand and voice</option>
+            <option value="writing">Writing or editing</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fMsg">Project details</label>
+          <textarea id="fMsg" name="message" rows="5" placeholder="Goals, timeline, page count or word count..."></textarea>
+          <small class="err" id="eMsg"></small>
+        </div>
+        <button class="btn btnSolid btnFull" type="submit">Send message</button>
+        <p class="formOk" id="formOk" role="status" hidden>Thank you. Your note is ready. I will reply within two working days.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footGrid">
+    <div>
+      <p class="footBrand">Mara Ellis</p>
+      <p class="footNote">Editorial designer and writer. Set in Fraunces and Inter.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="copy">© 2026 Mara Ellis. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
